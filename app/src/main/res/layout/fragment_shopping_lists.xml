@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/fragment_shopping_lists"
+                style="@style/FragmentStyle"
+                tools:context=".MainActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/shopping_list_input_layout"
+        style="@style/ShoppingListInputLayoutStyle">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/editTextShoppingListName"
+            style="@style/ShoppingListNameTextInputStyle"
+            android:hint="@string/enter_a_new_shopping_list"
+            android:visibility="gone"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonAddShoppingList"
+        style="@style/ButtonSaveStyle"
+        android:layout_below="@id/shopping_list_input_layout"/>
+
+    <TextView
+        android:id="@+id/textViewShoppingLists"
+        style="@style/TitleTextStyle"
+        android:layout_below="@id/buttonAddShoppingList"
+        android:text="@string/shopping_lists"
+        android:textSize="@dimen/shopping_list_title_text_size"/>
+
+    <ListView
+        android:id="@+id/listViewShoppingLists"
+        style="@style/ListViewStyle"
+        android:layout_below="@+id/textViewShoppingLists">
+    </ListView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabShopList"
+        style="@style/FabStyle"
+        android:src="@drawable/ic_add_white_24dp"/>
+
+</RelativeLayout>

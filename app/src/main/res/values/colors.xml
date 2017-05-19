@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#32656f</color>
+    <color name="colorPrimaryDark">#020202</color>
+    <color name="colorPrimaryLight">#5d979c</color>
+    <color name="colorAccent">#ff3c00</color>
+    <color name="colorFragmentBackground">#f5f5f5</color>
+    <color name="colorPrimaryText">#f4f4f4</color>
+    <color name="colorSecondaryText">#757575</color><![CDATA[
+
+    -->
+    ]]>
+    <color name="netWhite">#eef4e6</color>
+
+</resources>

@@ -1,0 +1,469 @@
+{
+  "project_info": {
+    "project_number": "1033529044356",
+    "firebase_url": "https://shoppinglisttask-7f8da.firebaseio.com",
+    "project_id": "shoppinglisttask-7f8da",
+    "storage_bucket": "shoppinglisttask-7f8da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033529044356:android:f8fbd97fa77a1c45",
+        "android_client_info": {
+          "package_name": "com.example.nemanja.shoppinglisttask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033529044356-k01efmlhtjob8qjcj66mjb7jf6gh0rrd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nemanja.shoppinglisttask",
+            "certificate_hash": "608201c6bd62b59c7f78bfe9fe649b694504f709"
+          }
+        },
+        {
+          "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7fVK5huImUB8DMX_hEHjMH1LBFAeo_i0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033529044356:android:f5b3042dce883e88",
+        "android_client_info": {
+          "package_name": "com.example.nemanja.shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033529044356-t9anrrlvdle9seagdtueua2vlh6l5psf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nemanja.shop",
+            "certificate_hash": "608201c6bd62b59c7f78bfe9fe649b694504f709"
+          }
+        },
+        {
+          "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7fVK5huImUB8DMX_hEHjMH1LBFAeo_i0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033529044356:android:ef580cd2d7242961",
+        "android_client_info": {
+          "package_name": "com.example.nemanja.shopexecom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033529044356-sv8l4flslprj6d2cs27bchqv2nfogctf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nemanja.shopexecom",
+            "certificate_hash": "608201c6bd62b59c7f78bfe9fe649b694504f709"
+          }
+        },
+        {
+          "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7fVK5huImUB8DMX_hEHjMH1LBFAeo_i0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033529044356:android:cb420810ac29d325",
+        "android_client_info": {
+          "package_name": "com.example.nemanja.himera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033529044356-avpdgjefvqn5tdj0nc47nsnf61de71pl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nemanja.himera",
+            "certificate_hash": "608201c6bd62b59c7f78bfe9fe649b694504f709"
+          }
+        },
+        {
+          "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7fVK5huImUB8DMX_hEHjMH1LBFAeo_i0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033529044356:android:fcfef757a832647b",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7fVK5huImUB8DMX_hEHjMH1LBFAeo_i0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033529044356:android:2ddd882ecd5f0fec",
+        "android_client_info": {
+          "package_name": "com.example.nemanja.hashmapvezba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033529044356-k9ksfft134m5c1rddd5l134eev1aqtr7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nemanja.hashmapvezba",
+            "certificate_hash": "608201c6bd62b59c7f78bfe9fe649b694504f709"
+          }
+        },
+        {
+          "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7fVK5huImUB8DMX_hEHjMH1LBFAeo_i0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033529044356:android:661f1727e6eb2ff4",
+        "android_client_info": {
+          "package_name": "app.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7fVK5huImUB8DMX_hEHjMH1LBFAeo_i0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033529044356:android:3f5192377659e250",
+        "android_client_info": {
+          "package_name": "net.simplifiedcoding.firebasedatabaseexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033529044356-9k7gpesqv10qgle7eifqvs5uje7tn9v0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.simplifiedcoding.firebasedatabaseexample",
+            "certificate_hash": "608201c6bd62b59c7f78bfe9fe649b694504f709"
+          }
+        },
+        {
+          "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7fVK5huImUB8DMX_hEHjMH1LBFAeo_i0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033529044356:android:d4b3493e2dc67b35",
+        "android_client_info": {
+          "package_name": "com.example.nemanja.execomshoplist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033529044356-kegfsjflisistbbgs6shl8416u8ppq1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nemanja.execomshoplist",
+            "certificate_hash": "608201c6bd62b59c7f78bfe9fe649b694504f709"
+          }
+        },
+        {
+          "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7fVK5huImUB8DMX_hEHjMH1LBFAeo_i0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033529044356:android:511e19eea24523d5",
+        "android_client_info": {
+          "package_name": "com.example.nemanja.taskmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033529044356-meajrfvcnrnb4huggtfvlogvhvok424t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nemanja.taskmanager",
+            "certificate_hash": "608201c6bd62b59c7f78bfe9fe649b694504f709"
+          }
+        },
+        {
+          "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7fVK5huImUB8DMX_hEHjMH1LBFAeo_i0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033529044356:android:623fdbde10ef9830",
+        "android_client_info": {
+          "package_name": "com.example.nemanja.myshoppinglistfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033529044356-og08r0mt4vkm528ur32bp1t37c537pg8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nemanja.myshoppinglistfirebase",
+            "certificate_hash": "608201c6bd62b59c7f78bfe9fe649b694504f709"
+          }
+        },
+        {
+          "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7fVK5huImUB8DMX_hEHjMH1LBFAeo_i0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033529044356-l7cllbq3qndmb12an67k6v7ri4vv7hcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

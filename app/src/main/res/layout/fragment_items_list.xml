@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                style="@style/FragmentStyle"
+                tools:context=".fragments.ItemsListFragment">
+
+    <TextView
+        android:id="@+id/textViewShoppingList"
+        style="@style/TitleTextStyle"
+        android:layout_marginTop="@dimen/fragment_margin"
+        android:textSize="@dimen/app_name_text_size"/>
+
+    <LinearLayout
+        android:id="@+id/itemAndAmount"
+        style="@style/LinearLayoutDialogInputs"
+        android:layout_below="@id/textViewShoppingList"
+        android:baselineAligned="false">
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/ItemTextInputLayoutStyle"
+            android:layout_weight="6">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextItemName"
+                style="@style/FragmentItemNameTextInputStyle"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/ItemTextInputLayoutStyle"
+            android:layout_marginTop="@dimen/fragment_text_input_edit_text_margin_top"
+            android:layout_weight="2">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextAmount"
+                style="@style/FragmentItemAmountTextInputStyle"/>
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonAddItem"
+        style="@style/ButtonSaveStyle"
+        android:layout_below="@id/itemAndAmount"/>
+
+    <ListView
+        android:id="@+id/listViewItems"
+        style="@style/ListViewStyle"
+        android:layout_below="@+id/buttonAddItem">
+
+    </ListView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabItemsList"
+        style="@style/FabStyle"
+        android:src="@drawable/ic_add_shopping_cart_white_24dp"/>
+
+</RelativeLayout>

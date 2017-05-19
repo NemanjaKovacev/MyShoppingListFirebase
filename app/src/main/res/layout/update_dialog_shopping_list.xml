@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/UpdateDialogStyle">
+
+    <android.support.design.widget.TextInputLayout
+        style="@style/ShoppingListInputLayoutStyle">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/editTextShoppingListNameUpdate"
+            style="@style/ShoppingListNameTextInputStyle"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutHorizontal">
+
+        <Button
+            android:id="@+id/buttonUpdateShoppingList"
+            style="@style/ButtonDialogStyle"
+            android:text="@string/update_an_existing_shopping_list"/>
+
+        <Button
+            android:id="@+id/buttonDeleteShoppingList"
+            style="@style/ButtonDialogStyle"
+            android:text="@string/delete_a_shopping_list"/>
+
+    </LinearLayout>
+
+</LinearLayout>

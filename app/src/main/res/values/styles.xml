@@ -1,0 +1,207 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:titleTextStyle">@style/MyTitleTextStyle</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <!-- Support library compatibility -->
+        <item name="titleTextStyle">@style/MyTitleTextStyle</item>
+        <item name="background">@color/colorPrimary</item>
+    </style>
+
+    <style name="MyTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/netWhite</item>
+        <item name="android:textSize">@dimen/app_name_text_size</item>
+    </style>
+
+    <style name="FragmentStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorPrimaryLight</item>
+        <item name="android:paddingLeft">@dimen/fragment_margin</item>
+        <item name="android:paddingTop">@dimen/fragment_margin</item>
+        <item name="android:paddingRight">@dimen/fragment_margin</item>
+        <item name="android:paddingBottom">@dimen/fragment_margin</item>
+    </style>
+
+    <style name="ListViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/listview_margin</item>
+        <item name="android:dividerHeight">@dimen/listview_margin</item>
+    </style>
+
+    <style name="ButtonSaveStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/save</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="ButtonDialogStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="TitleTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/fragment_margin</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_margin">@dimen/fragment_margin</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="UpdateDialogStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/fragment_margin</item>
+    </style>
+
+    <style name="LinearLayoutHorizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="LinearLayoutDialogInputs">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:weightSum">8</item>
+    </style>
+
+    <style name="ShoppingListInputLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ShoppingListNameTextInputStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">@string/shopping_list</item>
+    </style>
+
+    <style name="ItemTextInputLayoutStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ItemNameTextInputStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:hint">@string/item_hint</item>
+    </style>
+
+    <style name="ItemAmountTextInputStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:hint">@string/item_amount_hint</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textSize">@dimen/item_input_edit_text_size</item>
+    </style>
+
+    <style name="FragmentItemNameTextInputStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:hint">@string/enter_a_new_item</item>
+        <item name="android:textSize">@dimen/fragment_input_item_name_text_size</item>
+        <item name="android:visibility">gone</item>
+
+    </style>
+
+    <style name="FragmentItemAmountTextInputStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:hint">@string/item_amount</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textSize">@dimen/fragment_input_item_amount_text_size</item>
+        <item name="android:visibility">gone</item>
+
+    </style>
+
+    <style name="CardStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/card_layout_margin</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+
+    </style>
+
+    <style name="TextViewLarger">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:background">@color/colorFragmentBackground</item>
+        <item name="android:padding">@dimen/card_layout_margin</item>
+        <item name="android:text">@string/shopping_list</item>
+        <item name="android:textSize">@dimen/text_view_larger</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewLarge">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorFragmentBackground</item>
+        <item name="android:padding">@dimen/card_layout_margin</item>
+        <item name="android:text">@string/shopping_list</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/text_view_large</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewMedium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorFragmentBackground</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/fragment_input_item_amount_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewSmall">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorFragmentBackground</item>
+        <item name="android:gravity">end|center</item>
+        <item name="android:text">@string/item_amount_colon</item>
+        <item name="android:textSize">@dimen/item_input_edit_text_size</item>
+    </style>
+
+    <style name="CheckBoxStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorFragmentBackground</item>
+        <item name="android:paddingLeft">@dimen/card_corner_radius</item>
+        <item name="android:paddingStart">@dimen/card_corner_radius</item>
+    </style>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">My Firebase Shopping List</string>
+    <string name="shopping_list">Shopping List</string>
+    <string name="update_an_existing_shopping_list">Update shopping list</string>
+    <string name="delete_a_shopping_list">Delete shopping list</string>
+    <string name="enter_a_new_shopping_list">Enter a new shopping list</string>
+    <string name="save">Save</string>
+    <string name="shopping_lists">Shopping Lists</string>
+    <string name="enter_a_new_item">Enter a new item</string>
+    <string name="shopping_list_updated">Shopping list updated</string>
+    <string name="shopping_list_deleted">Shopping list deleted</string>
+    <string name="shopping_list_created">Shopping list created</string>
+    <string name="shopping_list_enter">Please enter a shopping list</string>
+    <string name="item_added">Item added</string>
+    <string name="item_enter">Please enter an item</string>
+    <string name="update_item">Update item</string>
+    <string name="delete_item">Delete item</string>
+    <string name="item_amount">Amount</string>
+    <string name="item_amount_colon">Amount:</string>
+    <string name="item_hint">Item</string>
+    <string name="item_amount_hint">Amount</string>
+    <string name="item_updated">Item updated</string>
+    <string name="item_deleted">Item deleted</string>
+
+</resources>

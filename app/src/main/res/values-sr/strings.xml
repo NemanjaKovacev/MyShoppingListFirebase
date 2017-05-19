@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">My Firebase Shopping List</string>
+    <string name="shopping_list">Lista za kupovinu</string>
+    <string name="update_an_existing_shopping_list">Ažuriraj listu za kupovinu</string>
+    <string name="delete_a_shopping_list">Izbriši listu za kupovinu</string>
+    <string name="enter_a_new_shopping_list">Unesi novu listu za kupovinu</string>
+    <string name="save">Snimi</string>
+    <string name="shopping_lists">Liste za kupovinu</string>
+    <string name="enter_a_new_item">Unesi novi artikal</string>
+    <string name="shopping_list_updated">Lista za kupovinu ažurirana</string>
+    <string name="shopping_list_deleted">Lista za kupovinu obrisana</string>
+    <string name="shopping_list_created">Načinjena lista za kupovinu</string>
+    <string name="shopping_list_enter">Unesi listu za kupovinu</string>
+    <string name="item_added">Artikal dodat</string>
+    <string name="item_enter">Unesi artikal</string>
+    <string name="update_item">Ažuriraj artikal</string>
+    <string name="delete_item">Obriši artikal</string>
+    <string name="item_amount">Količina</string>
+    <string name="item_amount_colon">Količina:</string>
+    <string name="item_hint">Artikal</string>
+    <string name="item_amount_hint">Količina</string>
+    <string name="item_updated">Artikal ažuriran</string>
+    <string name="item_deleted">Artikal obrisan</string>
+
+</resources>
